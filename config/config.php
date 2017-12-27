@@ -9,7 +9,7 @@ if ( 'support@sakura.ad.jp' == $_SERVER['SERVER_ADMIN'] && file_exists($path) ){
 
     $_DB = array_merge($_SERVER, parse_ini_file($path));
 
-    define('DATABASE_NAME','obopro_next');
+    define('DATABASE_NAME','waseda-ad_obopro');
     define('DATABASE_USER', $_DB["DB_USER"] );
     define('DATABASE_PASSWORD', $_DB["DB_USER"] );
     define('DATABASE_HOST', $_DB["DB_HOST"] );
