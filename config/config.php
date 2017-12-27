@@ -11,7 +11,7 @@ if ( 'support@sakura.ad.jp' == $_SERVER['SERVER_ADMIN'] && file_exists($path) ){
 
     define('DATABASE_NAME','waseda-ad_obopro');
     define('DATABASE_USER', $_DB["DB_USER"] );
-    define('DATABASE_PASSWORD', $_DB["DB_USER"] );
+    define('DATABASE_PASSWORD', $_DB["DB_PASS"] );
     define('DATABASE_HOST', $_DB["DB_HOST"] );
 
 } else {
